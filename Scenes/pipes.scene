@@ -1,0 +1,154 @@
+{
+  "Id": "7804b826-d196-4f6e-9841-bca88a1a2f9e",
+  "GameObjects": [
+    {
+      "Id": "b7c6da6d-6b45-46a3-91fc-2eb9ab921279",
+      "Name": "Camera",
+      "Position": "512,0.00004343284,-0.00005913943",
+      "Rotation": "0.00000005951873,0.000000002261917,1,-0.00000004371139",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__version": 0,
+          "__type": "CameraComponent",
+          "__enabled": true,
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 60,
+          "IsMainCamera": true,
+          "Orthographic": true,
+          "OrthographicHeight": 409.40103,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "Id": "37d6c654-c1a6-45bd-8ac4-d95f98caafc7",
+      "Name": "Sun",
+      "Position": "512,0.00002184593,95.99995",
+      "Rotation": "-0,0,1,-0.00000004371139",
+      "Enabled": true,
+      "Components": [
+        {
+          "__version": 0,
+          "__type": "DirectionalLight",
+          "__enabled": true,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0.05882,0.07451,0.08235,1"
+        }
+      ]
+    },
+    {
+      "Id": "16b4ac4c-d7e1-4aab-a37e-d9dfc8a05d0f",
+      "Name": "Terry",
+      "Position": "0,-32,-0.000002867499",
+      "Rotation": "-0.5,0.5,0.5,0.5",
+      "Enabled": true,
+      "Components": [
+        {
+          "__version": 0,
+          "__type": "ModelRenderer",
+          "__enabled": true,
+          "BodyGroups": 341,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/citizen/citizen.vmdl",
+          "RenderType": "Off",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__version": 0,
+          "__type": "ModelCollider",
+          "__enabled": true,
+          "IsTrigger": false,
+          "Model": "models/citizen/citizen.vmdl",
+          "Static": false,
+          "Surface": null
+        },
+        {
+          "__version": 0,
+          "__type": "Rigidbody",
+          "__enabled": true,
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {
+            "X": true,
+            "Y": true,
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__version": 0,
+          "__type": "FlappyController",
+          "__enabled": true,
+          "jumpForce": 30
+        }
+      ]
+    },
+    {
+      "Id": "1e8d68ca-48ad-4dc8-86ab-260ce7832e8c",
+      "Name": "Pipe Spawner",
+      "Position": "0,256,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__version": 0,
+          "__type": "PipeSpawner",
+          "__enabled": true,
+          "DelayInSeconds": 1,
+          "initialDelay": 2,
+          "pipePrefab": "prefabs/pipe.prefab",
+          "pipeSpeed": 0.5
+        }
+      ]
+    },
+    {
+      "Id": "2f62c74d-4c1b-42db-809c-9f9a528186ac",
+      "Name": "Grass",
+      "Position": "-496,-0.00001204818,-336",
+      "Rotation": "-0.00000002344487,0.7336534,-0.00000002344487,0.6795239",
+      "Scale": "5,10,1",
+      "Enabled": true,
+      "Components": [
+        {
+          "__version": 0,
+          "__type": "ModelRenderer",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "MaterialGroup": null,
+          "MaterialOverride": "materials/shared/colors/green_mat.vmat",
+          "Model": "models/dev/plane.vmdl",
+          "RenderType": "On",
+          "Tint": "0.46977,0.46977,0.46977,1"
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "Lerping": true,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true
+  },
+  "Title": "pipes",
+  "Description": "",
+  "__references": [
+    "eurorp.green_mat"
+  ]
+}

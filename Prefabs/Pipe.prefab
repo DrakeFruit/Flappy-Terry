@@ -1,0 +1,150 @@
+{
+  "RootObject": {
+    "Id": "335ac620-ffa8-40b7-b977-1c1b0f2a16ac",
+    "Name": "pipe",
+    "Enabled": true,
+    "Children": [
+      {
+        "Id": "98540055-0a9f-482e-bad9-687621142811",
+        "Name": "Object",
+        "Position": "0,0.00001402007,-176",
+        "Enabled": true,
+        "Children": [
+          {
+            "Id": "6456dcc2-92ed-4621-ab26-b9bb3afb0f2b",
+            "Name": "wheel01",
+            "Position": "0,0.00001525879,105.9172",
+            "Rotation": "0.7071068,0,0,0.7071068",
+            "Scale": "1.247666,1.247666,1.247666",
+            "Enabled": true,
+            "Components": [
+              {
+                "__version": 0,
+                "__type": "ModelRenderer",
+                "__enabled": true,
+                "BodyGroups": 18446744073709551615,
+                "MaterialGroup": null,
+                "MaterialOverride": null,
+                "Model": "models/citizen_props/wheel01.vmdl",
+                "RenderType": "On",
+                "Tint": "1,1,1,1"
+              },
+              {
+                "__version": 0,
+                "__type": "ModelCollider",
+                "__enabled": true,
+                "IsTrigger": false,
+                "Model": "models/citizen_props/wheel01.vmdl",
+                "Static": false,
+                "Surface": null
+              }
+            ]
+          },
+          {
+            "Id": "79b10c5e-0208-414f-84eb-c31fbf223266",
+            "Name": "pipeline_100x600",
+            "Position": "0,0.00001525879,-128",
+            "Rotation": "0.00000001856692,-0.7071068,0.00000001856692,0.7071068",
+            "Enabled": true,
+            "Components": [
+              {
+                "__version": 0,
+                "__type": "ModelRenderer",
+                "__enabled": true,
+                "BodyGroups": 18446744073709551615,
+                "MaterialGroup": null,
+                "MaterialOverride": null,
+                "Model": "models/rust_props/pipelines/pipeline_100x600.vmdl",
+                "RenderType": "On",
+                "Tint": "1,1,1,1"
+              },
+              {
+                "__version": 0,
+                "__type": "ModelCollider",
+                "__enabled": true,
+                "IsTrigger": false,
+                "Model": "models/rust_props/pipelines/pipeline_100x600.vmdl",
+                "Static": false,
+                "Surface": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": "1aa4fc59-6709-41cc-b55e-d564c8b58e6c",
+        "Name": "Object (1)",
+        "Position": "0,0.0000147749,176",
+        "Rotation": "1,0,0,-0.00000004371139",
+        "Enabled": true,
+        "Children": [
+          {
+            "Id": "ca744ce5-0e63-4a16-a484-1ec1225875cc",
+            "Name": "wheel01",
+            "Position": "0,0.00001525879,105.9172",
+            "Rotation": "0.7071068,0,0,0.7071068",
+            "Scale": "1.247666,1.247666,1.247666",
+            "Enabled": true,
+            "Components": [
+              {
+                "__version": 0,
+                "__type": "ModelRenderer",
+                "__enabled": true,
+                "BodyGroups": 18446744073709551615,
+                "MaterialGroup": null,
+                "MaterialOverride": null,
+                "Model": "models/citizen_props/wheel01.vmdl",
+                "RenderType": "On",
+                "Tint": "1,1,1,1"
+              },
+              {
+                "__version": 0,
+                "__type": "ModelCollider",
+                "__enabled": true,
+                "IsTrigger": false,
+                "Model": "models/citizen_props/wheel01.vmdl",
+                "Static": false,
+                "Surface": null
+              }
+            ]
+          },
+          {
+            "Id": "10b15864-0a0a-4f4f-b38d-37c503599861",
+            "Name": "pipeline_100x600",
+            "Position": "0,0.00001525879,-128",
+            "Rotation": "0.00000001856692,-0.7071068,0.00000001856692,0.7071068",
+            "Enabled": true,
+            "Components": [
+              {
+                "__version": 0,
+                "__type": "ModelRenderer",
+                "__enabled": true,
+                "BodyGroups": 18446744073709551615,
+                "MaterialGroup": null,
+                "MaterialOverride": null,
+                "Model": "models/rust_props/pipelines/pipeline_100x600.vmdl",
+                "RenderType": "On",
+                "Tint": "1,1,1,1"
+              },
+              {
+                "__version": 0,
+                "__type": "ModelCollider",
+                "__enabled": true,
+                "IsTrigger": false,
+                "Model": "models/rust_props/pipelines/pipeline_100x600.vmdl",
+                "Static": false,
+                "Surface": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": [
+    "rust.pipeline_100x600"
+  ]
+}
